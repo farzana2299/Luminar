@@ -1,0 +1,23 @@
+.d1{
+    position: absolute;
+    top: 84px;
+    left: 321px;
+    color: white;
+    font-size: 50px;
+}
+.d2{
+    position: absolute;
+    top: 350px;
+    left: 321px;
+    color: white;
+    font-size: 20px;
+    width: 650px;
+}
+@media(max-width:1000px)
+{
+    .d1{font-size: 25px;
+}  
+.d2{
+    font-size: 15px;
+} 
+}
