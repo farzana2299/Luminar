@@ -21,3 +21,32 @@
     font-size: 15px;
 } 
 }
+.box{
+    width: 1200px;
+    position: absolute; 
+    left: 200px;
+     background-color: white;
+ 
+}
+.box:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(1px);
+}
+.column{
+    width: 75%; 
+    position: absolute; 
+    top: 340px;
+    height: 410px;
+    border: black solid 1px;
+}
+.column:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(1px);
+}
+/* @media screen and (max-width: 700px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  } */
